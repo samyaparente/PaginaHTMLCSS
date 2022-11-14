@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: none;
+}
+
+body {
+  padding-top: 5vh;
+  background-image: url('../imagens/fundo2.jpg');
+  background-size: contain;
+  background-position-y: -150px;
+  opacity: 0.8;
+}
+/* Seção 1*/
+
+input, label {
+  display: block;
+  outline: none;
+  width: 80%;
+
+}
+a {
+  color: brown;
+}
+
+.logo img {
+  height: 500px;
+  width: 500px;
+}
+.form {
+  display: contents;
+  flex-wrap: wrap;
+}
+
+.full-box {
+  flex: 1 1 60%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 30%;
+  position: relative;
+}
+
+.spacing {
+  margin-right: 0.5%;
+}
+
+label {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+input {
+  border-bottom: 1px solid #323232;
+  padding: 1px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+input:focus {
+  border-color: #E60084;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: #FFF;
+  border: none;
+  border-radius: 10px;
+  height: 18px;
+  cursor: pointer;
+}
+
+#agreement {
+  margin-right: 3px;
+}
+
+#agreement, #agreement-label {
+  display: flex;
+  width: auto;
+}
+
+/* parte 2*/
+.card {
+ border-radius: 5px;
+ box-shadow: 7px 7px 13px 0px black;
+ padding: 30px;
+ margin: 20px;
+ width: 400px;
+ justify-content: space-around;
+ background-color: wheat;
+ transition: all 0.3s ease-out;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card.hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card.p {
+  color: black;
+  font-size: 16px;
+}
+
+.blue {
+  border-left: 3px solid #4895ff;
+}
+.green {
+  border-left: 3px solid #3bb54a;
+}
+.red {
+  border-left: 3xp solid #b3404a;
+}
+/*Section 3*/
+.background {
+    height: 500px;
+    background-color: wheat;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description h1 {
+    font-weight: 900px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.description h3 {
+  font-weight: 900px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: rgb(61, 46, 25);
+}
+
+.description p{
+    font-weight: 100px;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: rgb(61, 46, 25);
+    font-weight: bold;
+}
+
+/* Section 4 */
+.backgroundvideo {
+    height: 500px;
+    background-color: black; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 35px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.text p {
+    font-weight: 100;
+    text-align: left;
+    letter-spacing: 1px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.backgroundvideo iframe {
+    margin-right: 30px;
+}
+
+/* Section 5 */
+.description {
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-size: 18px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 100px;
+}
+
+.miniature img {
+    height: 80px;
+}
+
+.name {
+    margin: auto;
+    font-weight: 900;
+}
+
+.role {
+    margin: auto;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.lastcta {
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.callingtop {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.callingbottom {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+
+/*Seção 6*/
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.map-responsive iframe{
+  height:100%;
+  width:100%;
+  position: absolute;
+}
+
+.backgroundfooter {
+    background-color: wheat;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagefooter {
+    margin-left: 70px;
+    margin-top: 2px;
+}
+
+.textfooter{
+    font-family: product-sans, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 890px;
+    justify-content: right;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
